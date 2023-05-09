@@ -1,5 +1,4 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import { SharedLayout } from 'components/SharedLayout/SharedLayout';
 import { HomePage } from 'components/HomePage/HomePage';
 import { TwitsPage } from 'components/TwitsPage/TwitsPage';
