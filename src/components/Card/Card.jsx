@@ -1,11 +1,23 @@
-import { ListItem, Image, Logo, Text, Button } from 'components/Card/Card.styled';
+import {
+  ListItem,
+  Image,
+  Logo,
+  FollowersCount,
+  TwitsCount,
+  Button,
+  BtnContainer,
+  Line,
+} from 'components/Card/Card.styled';
 
 export function Card() {
   return (
     <ListItem>
-      <Text>777 Tweets</Text>
-      <Text>100,000 Followers</Text>
-      <Button>Follow</Button>
+      <TwitsCount>777 Tweets</TwitsCount>
+      <FollowersCount>100,000 Followers</FollowersCount>
+      <BtnContainer>
+        <Button>Follow</Button>
+      </BtnContainer>
+      <Line />
       <Image src="./Hansel.png" />
       <Logo width="50" height="20">
         <use href="./Vector.svg"></use>
