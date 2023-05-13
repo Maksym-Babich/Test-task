@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//maksym-babich.github.io/Test-task/static/css/main.3925262b.css",
+    "main.js": "//maksym-babich.github.io/Test-task/static/js/main.2cee304e.js",
+    "index.html": "//maksym-babich.github.io/Test-task/index.html",
+    "main.3925262b.css.map": "//maksym-babich.github.io/Test-task/static/css/main.3925262b.css.map",
+    "main.2cee304e.js.map": "//maksym-babich.github.io/Test-task/static/js/main.2cee304e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3925262b.css",
+    "static/js/main.2cee304e.js"
+  ]
+}
