@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://maksym-babich.github.io/Test-task/",
   "dependencies": {
     "@emotion/styled": "^11.11.0",
