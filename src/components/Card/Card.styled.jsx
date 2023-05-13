@@ -12,9 +12,15 @@ export const ListItem = styled.li`
   background-position: 36px 28px;
   background-color: #471ca9;
   border-radius: 20px;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+  :hover {
+    transform: scale(1.05);
+  }
 `;
 
 export const Image = styled.img`
+  width: 80px;
   position: absolute;
   left: 50%;
   top: 178px;
@@ -25,7 +31,11 @@ export const Image = styled.img`
   background-color: #471ca9;
 `;
 
-export const Logo = styled.svg``;
+export const Logo = styled.svg`
+  position: absolute;
+  left: 20px;
+  top: 20px;
+`;
 
 export const TwitsCount = styled.p`
   margin: 0 0 16px;
@@ -57,20 +67,25 @@ export const BtnContainer = styled.div`
 `;
 
 export const Button = styled.button`
+  display: flex;
+  justify-content: center;
   outline: none;
   border: none;
   width: 196px;
   padding: 14px 56px;
+  color: #373737;
+  background-color: #ebd8ff;
+  border-radius: 10px;
+  cursor: pointer;
+`;
+
+export const BtnText = styled.span`
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   text-transform: uppercase;
-  color: #373737;
-  background-color: #ebd8ff;
-  border-radius: 10px;
-  cursor: pointer;
 `;
 
 export const Line = styled.span`
